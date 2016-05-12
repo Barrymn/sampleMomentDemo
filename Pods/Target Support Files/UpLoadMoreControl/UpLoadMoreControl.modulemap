@@ -1,0 +1,6 @@
+framework module UpLoadMoreControl {
+  umbrella header "UpLoadMoreControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

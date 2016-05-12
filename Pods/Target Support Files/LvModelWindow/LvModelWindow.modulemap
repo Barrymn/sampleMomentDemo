@@ -1,0 +1,6 @@
+framework module LvModelWindow {
+  umbrella header "LvModelWindow-umbrella.h"
+
+  export *
+  module * { export * }
+}

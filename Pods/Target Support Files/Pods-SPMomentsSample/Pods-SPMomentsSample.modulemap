@@ -1,0 +1,6 @@
+framework module Pods_SPMomentsSample {
+  umbrella header "Pods-SPMomentsSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

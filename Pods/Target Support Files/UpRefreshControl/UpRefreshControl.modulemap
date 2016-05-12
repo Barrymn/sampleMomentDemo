@@ -1,0 +1,6 @@
+framework module UpRefreshControl {
+  umbrella header "UpRefreshControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

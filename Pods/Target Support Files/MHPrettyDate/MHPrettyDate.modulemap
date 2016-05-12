@@ -1,0 +1,6 @@
+framework module MHPrettyDate {
+  umbrella header "MHPrettyDate-umbrella.h"
+
+  export *
+  module * { export * }
+}

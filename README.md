@@ -1,1 +1,1 @@
-# sampleMomentDemo
+This is a sample of "Moments", a twitter-like social networking system, which supports posting messages or images, and commenting or liking others posts.
