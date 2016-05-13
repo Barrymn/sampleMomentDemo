@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D48E5A2BFCFB7CD30464A142'
+               BlueprintIdentifier = '230304AA0B27F57DAFD8A495'
                BlueprintName = 'UpLoadMoreControl'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'UpLoadMoreControl.framework'>

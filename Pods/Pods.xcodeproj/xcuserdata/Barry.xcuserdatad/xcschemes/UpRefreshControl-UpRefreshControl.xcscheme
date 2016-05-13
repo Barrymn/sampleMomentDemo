@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2556B95BBF54379430D0B996'
+               BlueprintIdentifier = '9D106FDC8B980E96932C96E1'
                BlueprintName = 'UpRefreshControl-UpRefreshControl'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'UpRefreshControl.bundle'>

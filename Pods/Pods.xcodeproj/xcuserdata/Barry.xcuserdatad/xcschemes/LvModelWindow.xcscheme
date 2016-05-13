@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CCDDC62EBF46C8B92397D91A'
+               BlueprintIdentifier = '32F4E2B70B078BCD948A1FAC'
                BlueprintName = 'LvModelWindow'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'LvModelWindow.framework'>

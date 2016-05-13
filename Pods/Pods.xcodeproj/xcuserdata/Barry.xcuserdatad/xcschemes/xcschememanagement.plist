@@ -49,6 +49,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SKPhotoBrowser.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -87,7 +92,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0560EFF82238507875D9BC5CD367088D</key>
+		<key>128161BE09BC8785A11358E70E8B1D18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F9B606500722FC69D1A88AD950AB951</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -107,17 +117,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>40C915998B34F821CE2F8499C34954C3</key>
+		<key>2E9B408B6544B980A946D7B510482884</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>414D76C47EF8136725C0965382729AC0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4A009D905A65830743339DD022E63AF3</key>
+		<key>37544DB93861F8D738025895118D24C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -127,22 +132,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>53ED8FB22EFDDCAC38C5FC126B466FE0</key>
+		<key>77BBAD78ECC9E18A5F5D42E67CE7F581</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>57CE26BB41508630EA95382F56F758CA</key>
+		<key>7C6A1BADBB2E96328575F93A93636558</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>86930AD1700C9144C515D5C8BF297462</key>
+		<key>83B86B07C4B390087E6CD8535F345508</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>920B292670A9FEA831F662D592C754BD</key>
+		<key>84BC8DE8F934DC8D3878E9BB5D4C936A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -153,6 +158,11 @@
 			<true/>
 		</dict>
 		<key>A794F7A51552675666C613BB2A4DC07B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9F01EE2190CA55353075E2E74F8E1B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

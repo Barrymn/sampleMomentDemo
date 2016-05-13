@@ -16,6 +16,7 @@ target 'SPMomentsSample' do
     pod 'CTAssetsPickerController', '2.9.5'
     pod 'Toucan', '0.4.3'
     pod 'MHPrettyDate', '1.1.1'
-
+    pod 'SKPhotoBrowser'
+    
 end
 

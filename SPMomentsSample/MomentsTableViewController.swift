@@ -13,8 +13,11 @@ import SVProgressHUD
 import UpRefreshControl
 import UpLoadMoreControl
 import LvModelWindow
+import SKPhotoBrowser
 
 class MomentsTableViewController: UITableViewController, UITextFieldDelegate, momentCellDelegate, momentCommentViewDelegate, LvModelWindowDelegate {
+    
+    let currentUser: User = User(data: 0)
     
     class momentsHeaderView: UIView {
         var receivedMessageCount: Int = 0 {
@@ -367,7 +370,19 @@ class MomentsTableViewController: UITableViewController, UITextFieldDelegate, mo
     func momentCell(momentCell: MomentsTableViewCell, didSelectPhotoViewAtIndex: Int) {
         // TODO:
         print("点击了图片, index:\(didSelectPhotoViewAtIndex)")
+        
+        var images = [SKPhoto]()
+        let photo = SKPhoto.photoWithImage(UIImage(named: "momentPhoto")!)// add some UIImage
+        images.append(photo)
+        
+        // create PhotoBrowser Instance, and present.
+        let browser = SKPhotoBrowser(photos: images)
+        browser.initializePageIndex(0)
+        //browser.delegate = self
+        presentViewController(browser, animated: true, completion: {})
+        
     }
+    
     
     
     // MARK: - momentCommentViewDelegate
@@ -442,6 +457,15 @@ class MomentsTableViewController: UITableViewController, UITextFieldDelegate, mo
                     let operateMoment = moments[momentOperatingIndexPath!.row]
                     let newComment = Comment(data: operateMoment.momentId!)
                     newComment.content = comment
+                    newComment.creator = currentUser
+                    
+                    if let momentCommentingIndexPath = momentOperatingIndexPaths?.operateCommentIndexPath {
+                        let operateMomentComments = operateMoment.comments
+                        if operateMomentComments?.count > momentCommentingIndexPath.row {
+                            let operateComment = operateMomentComments![momentCommentingIndexPath.row]
+                            newComment.atUser = operateComment.creator
+                        }
+                    }
                     
                     operateMoment.comments?.append(newComment)
                     self.tableView.reloadRowsAtIndexPaths([momentOperatingIndexPath!], withRowAnimation: UITableViewRowAnimation.None)
