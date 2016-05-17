@@ -17,6 +17,7 @@
 		4C97EB401CEB883D00DB69A4 /* PhotoBrowserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97EB3C1CEB883D00DB69A4 /* PhotoBrowserCell.swift */; };
 		4C97EB411CEB883D00DB69A4 /* PhotoBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97EB3D1CEB883D00DB69A4 /* PhotoBrowserView.swift */; };
 		4C97EB421CEB883D00DB69A4 /* RMDownloadIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97EB3E1CEB883D00DB69A4 /* RMDownloadIndicator.swift */; };
+		4C97EB441CEB9D4A00DB69A4 /* CreateMomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97EB431CEB9D4A00DB69A4 /* CreateMomentViewController.swift */; };
 		4CA637471CE10F2B009238F0 /* MomentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA637461CE10F2B009238F0 /* MomentsTableViewCell.swift */; };
 		4CA6374B1CE12804009238F0 /* MomentCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA6374A1CE12804009238F0 /* MomentCommentView.swift */; };
 		4CD1999B1CD8FC890018E35A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1999A1CD8FC890018E35A /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 		4C97EB3C1CEB883D00DB69A4 /* PhotoBrowserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserCell.swift; sourceTree = "<group>"; };
 		4C97EB3D1CEB883D00DB69A4 /* PhotoBrowserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserView.swift; sourceTree = "<group>"; };
 		4C97EB3E1CEB883D00DB69A4 /* RMDownloadIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMDownloadIndicator.swift; sourceTree = "<group>"; };
+		4C97EB431CEB9D4A00DB69A4 /* CreateMomentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateMomentViewController.swift; sourceTree = "<group>"; };
 		4CA637461CE10F2B009238F0 /* MomentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentsTableViewCell.swift; sourceTree = "<group>"; };
 		4CA6374A1CE12804009238F0 /* MomentCommentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentCommentView.swift; sourceTree = "<group>"; };
 		4CD199971CD8FC890018E35A /* SPMomentsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPMomentsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 				4CA637461CE10F2B009238F0 /* MomentsTableViewCell.swift */,
 				4CA6374A1CE12804009238F0 /* MomentCommentView.swift */,
 				4C4F75041CE24CFD00B600B6 /* MomentOperateView.swift */,
+				4C97EB431CEB9D4A00DB69A4 /* CreateMomentViewController.swift */,
 			);
 			name = Moments;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				4C95C52A1CDC1505008B28CD /* Comment.swift in Sources */,
 				4C97EB3F1CEB883D00DB69A4 /* BrowserCellDelegate.swift in Sources */,
 				4CA637471CE10F2B009238F0 /* MomentsTableViewCell.swift in Sources */,
+				4C97EB441CEB9D4A00DB69A4 /* CreateMomentViewController.swift in Sources */,
 				4C97EB411CEB883D00DB69A4 /* PhotoBrowserView.swift in Sources */,
 				4C95C5281CDC144D008B28CD /* User.swift in Sources */,
 				4C95C5221CDBFD49008B28CD /* SPModel.swift in Sources */,

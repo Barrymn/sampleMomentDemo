@@ -553,8 +553,8 @@ class MomentsTableViewController: UITableViewController, UITextFieldDelegate, mo
 
     // 到发推页面
     @objc private func toMakeAMoment() {
-        print("到发推页面")
-        //self.presentViewController(UINavigationController(rootViewController: CreateMomentVC()), animated: true, completion: nil)
+        print("到发朋友圈面")
+        self.presentViewController(UINavigationController(rootViewController: CreateMomentViewController()), animated: true, completion: nil)
     }
     
     @objc private func tapMomentsBackgroundView() {
