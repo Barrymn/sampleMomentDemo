@@ -2,42 +2,53 @@ PODS:
   - CTAssetsPickerController (2.9.5)
   - DWTagList (0.0.7)
   - HanekeSwift (0.10.0)
+  - JGProgressHUD (1.3.1)
   - Kingfisher (1.8.0)
   - LvModelWindow (0.1.0)
   - MHPrettyDate (1.1.1)
-  - SKPhotoBrowser (1.8.8)
   - SVProgressHUD (1.1.3)
   - Toucan (0.4.3)
   - TTTAttributedLabel (1.13.4)
   - UpLoadMoreControl (0.1.0)
   - UpRefreshControl (0.1.0)
+  - YYCache (1.0.3)
+  - YYImage (1.0.1):
+    - YYImage/Core (= 1.0.1)
+  - YYImage/Core (1.0.1)
+  - YYWebImage (1.0.3):
+    - YYCache
+    - YYImage
 
 DEPENDENCIES:
   - CTAssetsPickerController (= 2.9.5)
   - DWTagList (= 0.0.7)
   - HanekeSwift (= 0.10.0)
+  - JGProgressHUD
   - Kingfisher (= 1.8.0)
   - LvModelWindow (= 0.1.0)
   - MHPrettyDate (= 1.1.1)
-  - SKPhotoBrowser
   - SVProgressHUD (= 1.1.3)
   - Toucan (= 0.4.3)
   - TTTAttributedLabel (= 1.13.4)
   - UpLoadMoreControl (= 0.1.0)
   - UpRefreshControl (= 0.1.0)
+  - YYWebImage
 
 SPEC CHECKSUMS:
   CTAssetsPickerController: b413fece2194ae3dbf22fbc544cf6f2a6d516a4d
   DWTagList: cdf3607a7c37850a0c437d63c981f643dc5904bb
   HanekeSwift: d6f5bdf9dbdbbc09d59623b2c1d533e46463dd4d
+  JGProgressHUD: 153053a21d81208cb5f659691996bcefce6a9885
   Kingfisher: 4d40a6d8a0030b575be66593cae3aea587971a67
   LvModelWindow: f548da5703b7d14b4bc243c803c1af51abb3990c
   MHPrettyDate: e0e5975041f0210c0542f4c5d7e3e44d1a8537be
-  SKPhotoBrowser: 06c5ad76f3c404d16067d9cc771054759630bc53
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
   Toucan: 3e2319c8fb9c7a2fb9c30f6d4ecdc6b8a2f1c92b
   TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
   UpLoadMoreControl: 357a1fa72d6f717079e8cdcbab51a81f96d062b4
   UpRefreshControl: 442379f120f0cb4deba7166d6514aac5ba0e6bc6
+  YYCache: 282f35b5b0990833d0b7a06d864a87141a021da2
+  YYImage: b41b45bc5f32bfcdf67bdfb9c09da9e9832357c0
+  YYWebImage: 8da75a611fd0d2e0f58a273f9ca0bc731614cb0d
 
 COCOAPODS: 0.39.0

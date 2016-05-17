@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FFE0083C5A899F8FCFC6B431'
+               BlueprintIdentifier = '49756D7E62FEA9A8AE0E6492'
                BlueprintName = 'Pods-SPMomentsSample'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_SPMomentsSample.framework'>

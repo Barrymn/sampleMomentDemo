@@ -169,6 +169,16 @@ class MomentsTableViewCell: UITableViewCell, UICollectionViewDataSource, UIColle
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         collectionView.deselectItemAtIndexPath(indexPath, animated: true)
         delegate?.momentCell?(self, didSelectPhotoViewAtIndex:indexPath.row)
+        
+        let nPhoto = (photos == nil) ? 0 : photos!.count
+        var localImage: [AnyObject] = []
+        for i in 1...nPhoto {
+            localImage.append(NSURL(string: String(i))!)
+        }
+        let browser = PhotoBrowserView.initWithPhotos(withUrlArray: localImage)
+        browser.sourceType = SourceType.LOCAL
+        browser.index = indexPath.row
+        browser.show()
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {

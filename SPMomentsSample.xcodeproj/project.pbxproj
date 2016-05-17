@@ -13,6 +13,10 @@
 		4C95C5241CDBFEDD008B28CD /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95C5231CDBFEDD008B28CD /* Moment.swift */; };
 		4C95C5281CDC144D008B28CD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95C5271CDC144D008B28CD /* User.swift */; };
 		4C95C52A1CDC1505008B28CD /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95C5291CDC1505008B28CD /* Comment.swift */; };
+		4C97EB3F1CEB883D00DB69A4 /* BrowserCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97EB3B1CEB883D00DB69A4 /* BrowserCellDelegate.swift */; };
+		4C97EB401CEB883D00DB69A4 /* PhotoBrowserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97EB3C1CEB883D00DB69A4 /* PhotoBrowserCell.swift */; };
+		4C97EB411CEB883D00DB69A4 /* PhotoBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97EB3D1CEB883D00DB69A4 /* PhotoBrowserView.swift */; };
+		4C97EB421CEB883D00DB69A4 /* RMDownloadIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97EB3E1CEB883D00DB69A4 /* RMDownloadIndicator.swift */; };
 		4CA637471CE10F2B009238F0 /* MomentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA637461CE10F2B009238F0 /* MomentsTableViewCell.swift */; };
 		4CA6374B1CE12804009238F0 /* MomentCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA6374A1CE12804009238F0 /* MomentCommentView.swift */; };
 		4CD1999B1CD8FC890018E35A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1999A1CD8FC890018E35A /* AppDelegate.swift */; };
@@ -29,6 +33,10 @@
 		4C95C5231CDBFEDD008B28CD /* Moment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
 		4C95C5271CDC144D008B28CD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4C95C5291CDC1505008B28CD /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		4C97EB3B1CEB883D00DB69A4 /* BrowserCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserCellDelegate.swift; sourceTree = "<group>"; };
+		4C97EB3C1CEB883D00DB69A4 /* PhotoBrowserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserCell.swift; sourceTree = "<group>"; };
+		4C97EB3D1CEB883D00DB69A4 /* PhotoBrowserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserView.swift; sourceTree = "<group>"; };
+		4C97EB3E1CEB883D00DB69A4 /* RMDownloadIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMDownloadIndicator.swift; sourceTree = "<group>"; };
 		4CA637461CE10F2B009238F0 /* MomentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentsTableViewCell.swift; sourceTree = "<group>"; };
 		4CA6374A1CE12804009238F0 /* MomentCommentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentCommentView.swift; sourceTree = "<group>"; };
 		4CD199971CD8FC890018E35A /* SPMomentsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPMomentsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +81,17 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		4C97EB3A1CEB883D00DB69A4 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				4C97EB3B1CEB883D00DB69A4 /* BrowserCellDelegate.swift */,
+				4C97EB3C1CEB883D00DB69A4 /* PhotoBrowserCell.swift */,
+				4C97EB3D1CEB883D00DB69A4 /* PhotoBrowserView.swift */,
+				4C97EB3E1CEB883D00DB69A4 /* RMDownloadIndicator.swift */,
+			);
+			path = Browser;
+			sourceTree = "<group>";
+		};
 		4CD1998E1CD8FC890018E35A = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +113,7 @@
 		4CD199991CD8FC890018E35A /* SPMomentsSample */ = {
 			isa = PBXGroup;
 			children = (
+				4C97EB3A1CEB883D00DB69A4 /* Browser */,
 				4C95C5201CDBFCD5008B28CD /* Model */,
 				4CD199AC1CD8FCB30018E35A /* Moments */,
 				4CD1999A1CD8FC890018E35A /* AppDelegate.swift */,
@@ -249,13 +269,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CA6374B1CE12804009238F0 /* MomentCommentView.swift in Sources */,
+				4C97EB401CEB883D00DB69A4 /* PhotoBrowserCell.swift in Sources */,
 				4CD199AE1CD8FF950018E35A /* MomentsTableViewController.swift in Sources */,
 				4C95C52A1CDC1505008B28CD /* Comment.swift in Sources */,
+				4C97EB3F1CEB883D00DB69A4 /* BrowserCellDelegate.swift in Sources */,
 				4CA637471CE10F2B009238F0 /* MomentsTableViewCell.swift in Sources */,
+				4C97EB411CEB883D00DB69A4 /* PhotoBrowserView.swift in Sources */,
 				4C95C5281CDC144D008B28CD /* User.swift in Sources */,
 				4C95C5221CDBFD49008B28CD /* SPModel.swift in Sources */,
 				4CD1999B1CD8FC890018E35A /* AppDelegate.swift in Sources */,
 				4C4F75051CE24CFD00B600B6 /* MomentOperateView.swift in Sources */,
+				4C97EB421CEB883D00DB69A4 /* RMDownloadIndicator.swift in Sources */,
 				4C95C5241CDBFEDD008B28CD /* Moment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

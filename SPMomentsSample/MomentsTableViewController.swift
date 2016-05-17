@@ -13,7 +13,6 @@ import SVProgressHUD
 import UpRefreshControl
 import UpLoadMoreControl
 import LvModelWindow
-import SKPhotoBrowser
 
 class MomentsTableViewController: UITableViewController, UITextFieldDelegate, momentCellDelegate, momentCommentViewDelegate, LvModelWindowDelegate {
     
@@ -370,17 +369,6 @@ class MomentsTableViewController: UITableViewController, UITextFieldDelegate, mo
     func momentCell(momentCell: MomentsTableViewCell, didSelectPhotoViewAtIndex: Int) {
         // TODO:
         print("点击了图片, index:\(didSelectPhotoViewAtIndex)")
-        
-        var images = [SKPhoto]()
-        let photo = SKPhoto.photoWithImage(UIImage(named: "momentPhoto")!)// add some UIImage
-        images.append(photo)
-        
-        // create PhotoBrowser Instance, and present.
-        let browser = SKPhotoBrowser(photos: images)
-        browser.initializePageIndex(0)
-        //browser.delegate = self
-        presentViewController(browser, animated: true, completion: {})
-        
     }
     
     
